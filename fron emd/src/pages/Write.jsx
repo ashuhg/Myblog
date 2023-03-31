@@ -1,4 +1,26 @@
+import React from "react"
+import { IoIosAddCircleOutline } from "react-icons/io"
+
 export default function Write() {
-    return <h1>Write</h1>
-  }
-  
+  return (
+    <>
+      <section className='newPost'>
+        <div className='write-container boxItems'>
+          <div className='img '>
+            <img src='https://images.pexels.com/photos/6424244/pexels-photo-6424244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='image' class='image-preview' />
+          </div>
+          <form>
+            <div className='inputfile flexCenter'>
+              <input type='file' accept='image/*' alt='img' />
+            </div>
+            <input type='text' placeholder='Title' />
+
+            <textarea name='' id='' cols='30' rows='10'></textarea>
+
+            <button className='button'>Create Post</button>
+          </form>
+        </div>
+      </section>
+    </>
+  )
+};

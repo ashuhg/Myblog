@@ -1,10 +1,9 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-
 export default function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-        Site Name
+        <img src="../components/a.png" alt="logo" />
       </Link>
       <ul>
         <CustomLink to="./Home">Home</CustomLink> 

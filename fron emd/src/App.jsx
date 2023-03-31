@@ -20,7 +20,7 @@ function App() {
           <Route path="/Login" element={<Login />}/>
           <Route path=".pages/About" component={<About />} />
           <Route path="/Register" element={<Register/>}/>
-          <Route path='/details' element={<DetailsPages />} />
+          <Route path='/details/:id' element={<DetailsPages />} />
         </Routes>
       </div>
       <Footer />

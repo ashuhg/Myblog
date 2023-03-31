@@ -186,9 +186,9 @@ footer .icon {
   color: #333;
   text-decoration: none;
 }
-.site-title img{
-  max-width: 120;
-  max-height: 80;
+.nav-logo{
+  width: 160px;
+  height:60px;
 }
 
 ul {

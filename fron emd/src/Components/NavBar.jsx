@@ -3,7 +3,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-        <img src="../components/a.png" alt="logo" />
+        <img src="src\Components\a.png"  className="nav-logo" alt="logo" />
       </Link>
       <ul>
         <CustomLink to="./Home">Home</CustomLink> 
